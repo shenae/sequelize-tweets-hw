@@ -18,3 +18,5 @@
 
 //7. Write a query to update the hashtag of the tweet you just created
 // with #sequelize
+
+//8. Write a query to update the retweets where the text includes Brad Pitt
