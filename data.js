@@ -1,4 +1,5 @@
-const data = [
+//use this data for your seed data
+
   {
     "tweet_id": 1,
     "text": "I'm releasing new music this month",
@@ -13,7 +14,7 @@ const data = [
   },
   {
     "tweet_id": 3,
-    "text": "Would love to see some negative responses too. If Hooks aren’t working out for you, share your experiences!",
+    "text": "If Hooks aren’t working out for you, share your experiences!",
     "hashtag": "#react",
     "retweets": 600
   },
@@ -35,8 +36,3 @@ const data = [
     "hashtag": "#glowup",
     "retweets": 55
   }
-];
-
-module.exports = {
-  data
-};
