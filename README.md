@@ -1,6 +1,8 @@
 # Sequelize Tweets
 
-1. Create a database, called tweets_db by running `npm run db:init`.
+## Getting Started:
+1. Fork and clone, `cd` into the directory, run `npm i`.
+1. Create a database, called `tweets_db` by running `npm run db:init` in your terminal.
 1. Open the `models.js` file.
 1. Create a sequelize model for tweets.
 1. Remember to export your model!

@@ -16,18 +16,8 @@ const sequelize = new Sequelize({
 // -hashtag (string)
 // -retweets (integer)
 
-const Tweets = sequelize.define('tweets', {
-  text: Sequelize.TEXT,
-  hashtag: Sequelize.TEXT,
-  retweets: Sequelize.INTEGER
-});
 
 //Creates the tables in the database.
 sequelize.sync();
 
 //export the models from the file
-
-module.exports = {
-  Tweets,
-  sequelize
-}
