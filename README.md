@@ -19,3 +19,5 @@
 ## Resources
 - [Querying: Sequelize Docs](http://docs.sequelizejs.com/manual/tutorial/querying.html)
 - [Sequelize Docs Homepage](http://docs.sequelizejs.com/)
+
+![](https://media.giphy.com/media/5yucinA4yPXDq/giphy.gif)
