@@ -3,7 +3,6 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize({
   database: 'tweets_db',
   dialect: 'postgres',
-  operatorsAliases: false,
   define: {
     underscored: true,
     returning: true
@@ -16,8 +15,5 @@ const sequelize = new Sequelize({
 // -hashtag (string)
 // -retweets (integer)
 
-
-//Creates the tables in the database.
-sequelize.sync();
-
 //export the models from the file
+

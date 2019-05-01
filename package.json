@@ -6,7 +6,6 @@
   "scripts": {
     "db:init": "dropdb --if-exists tweets_db && createdb tweets_db",
     "db:reset": "node ./resetDb.js",
-    "db:model": "node ./models",
     "db:seed": "node ./seed",
     "db:queries": "node ./seed && node ./queries",
     "test": "echo \"Error: no test specified\" && exit 1"
