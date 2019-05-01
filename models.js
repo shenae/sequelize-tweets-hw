@@ -15,5 +15,15 @@ const sequelize = new Sequelize({
 // -hashtag (string)
 // -retweets (integer)
 
+const tweets_table = sequelize.define('tweets', {
+    text: Sequelize.STRING,
+    hashtag: Sequelize.STRING,
+    retweets: Sequelize.INTEGER
+});
+
 //export the models from the file
 
+module.exports = {
+  tweets_table,
+  sequelize
+}
